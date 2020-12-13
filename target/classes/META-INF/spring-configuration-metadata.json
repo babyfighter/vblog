@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "vueblog.jwt",
+      "type": "com.adam.vueblog.util.JwtUtils",
+      "sourceType": "com.adam.vueblog.util.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "vueblog.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.adam.vueblog.util.JwtUtils",
+      "defaultValue": 0
+    },
+    {
+      "name": "vueblog.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.adam.vueblog.util.JwtUtils"
+    },
+    {
+      "name": "vueblog.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.adam.vueblog.util.JwtUtils"
+    }
+  ],
+  "hints": []
+}
